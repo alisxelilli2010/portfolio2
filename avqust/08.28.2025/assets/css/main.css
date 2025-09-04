@@ -1,0 +1,56 @@
+@import url(__reboot.css);
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: blueviolet;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li:hover {
+    background-color: rgb(92, 33, 148);
+}
+
+.menu a,
+.logo a {
+    display: inline-block;
+    padding: 15px;
+    color: #fff;
+}
+
+
+.image img {
+    width: 100%;
+    max-height: 500px;
+}
+
+.text h1 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    text-align: center;
+    color: #3d556d;
+    letter-spacing: 2px;
+}
+
+.text h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    color: #283644;
+    letter-spacing: 0.2px;
+    margin-left: 10px;
+}
+
+.about h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    color: #3d556d;
+    letter-spacing: 0.4px;
+}
