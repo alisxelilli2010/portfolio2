@@ -1,0 +1,316 @@
+@import url(__reboot.css);
+
+@import url(fonts.css);
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+
+.menu a,
+.logo a {
+    display: inline-block;
+    color: #000;
+}
+
+.logo {
+    margin-left: 50px;
+    margin-top: 25px;
+    font-family: Epilogue;
+    font-size: 20px;
+}
+
+.menu a {
+    margin-right: 50px;
+    gap: 50px;
+    margin-top: 20px;
+    font-family: Epilogue;
+    font-size: 17px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .about img {
+    padding: 35px;
+} */
+
+/* .about .text {
+    display: inline-block;
+    padding-top: 100px;
+} */
+
+.col-md-6 .text {
+    gap: 28px;
+}
+
+.subtitle {
+    font-family: Epilogue;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 234px;
+    opacity: 100%;
+    font-weight: 600;
+}
+
+.title {
+    font-family: Epilogue;
+    font-size: 80px;
+    opacity: 100%;
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.info-text {
+    margin-left: 100px;
+    font-family: Epilogue;
+    font-size: 17px;
+}
+
+.image {
+    margin-right: 100px;
+    margin-top: 180px;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid rgb(193, 193, 193);
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.upper {
+    margin-bottom: 50px;
+}
+
+.down {
+    margin-top: 50px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 4px;
+    align-items: center;
+}
+
+.design {
+    margin-top: 180px;
+    margin-bottom: 180px;
+    display: flex;
+    margin-left: 145px;
+    gap: 125px;
+    margin-right: 145px;
+}
+
+.card {
+    text-align: center;
+}
+
+.card-2 {
+    margin-left: 150px;
+    text-align: center;
+}
+
+.card-3 {
+    text-align: center;
+    margin-left: 250px;
+}
+
+.card-icon {
+    margin-bottom: 56px;
+}
+
+h3 {
+    font-family: Epilogue;
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.intro-text {
+    font-family: Epilogue;
+    font-size: 13px;
+}
+
+h2 {
+    text-align: center;
+    font-family: Epilogue;
+    font-size: 32px;
+}
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    gap: 68px;
+    margin-bottom: 100px;
+}
+
+.head-title {
+    font-family: Epilogue;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.info {
+    font-family: Epilogue;
+    font-size: 17px;
+    font-weight: 200;
+}
+
+.card_1 {
+    margin-top: 60px;
+}
+
+.card_2 {
+    margin-left: 470px;
+    margin-top: -360px;
+}
+
+.card_3 {
+    margin-left: 950px;
+    margin-top: -360px;
+    margin-right: 100px;
+}
+
+.card_5 {
+    margin-left: 470px;
+    margin-top: -360px;
+}
+
+.card_6 {
+    margin-left: 950px;
+    margin-top: -360px;
+    margin-right: 100px;
+}
+
+
+.h2 {
+    margin-bottom: 55px;
+}
+
+.client {
+    display: flex;
+}
+
+.client .card,
+.card2,
+.card3 {
+    width: 300px;
+    height: 270px;
+    background: #f8e9cd;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.client-text {
+    padding: 30px;
+    font-family: Epilogue;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.client-vote {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.star {
+    margin-top: -50px;
+    margin-left: 100px;
+}
+
+.clients-name {
+    margin-left: 100px;
+    font-family: Epilogue;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.card2 {
+    margin-left: 170px;
+}
+
+.card3 {
+    margin-left: 180px;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer-hr {
+    border: none;
+    border-top: 2px solid rgb(193, 193, 193);
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 170px;
+}
+
+.title-text {
+    font-family: Epilogue;
+    font-size: 32px;
+    font-weight: 600;
+    margin-left: 100px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.title-intro-text {
+    margin-left: 100px;
+    font-family: Epilogue;
+    font-size: 17px;
+    font-weight: 300;
+    margin-bottom: 60px;
+}
+
+.icons {
+    margin-left: 100px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-left: 500px;
+}
+
+input, textarea {
+  width: 400px;
+  padding: 12px;
+  border: none;
+  background: #f3f3f3;
+  font-size: 14px;
+  border-radius: 2px;
+}
+
+input:focus, textarea:focus {
+  outline: 2px solid #333;
+}
+
+button {
+  background: #333;
+  color: #fff;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  width: 150px;
+}
+
+button:hover {
+  background: #000;
+}
